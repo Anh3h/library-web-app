@@ -11,13 +11,15 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
 import { LandingPageComponent } from './component/landing-page/landing-page.component';
 import { NavBarComponent } from './component/nav-bar/nav-bar.component';
+import { OverviewComponent } from './component/overview/overview.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    NavBarComponent
+    NavBarComponent,
+    OverviewComponent
   ],
   imports: [
     BrowserModule,
