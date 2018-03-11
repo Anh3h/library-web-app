@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.toolbar {
+    background-color: rgb(44, 22, 2);
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+app-nav-bar {
+    width: 100%;
+    z-index: 99;
+}

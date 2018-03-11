@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  protocol: 'http',
+  /*domain: 'allenbaiyee.homelinux.net',
+  port: '8086',*/
+  domain: 'localhost',
+  port: '8081',
+  timeout: 5000,
+  clientId: "admin",
+  clientSecret: "password"
 };

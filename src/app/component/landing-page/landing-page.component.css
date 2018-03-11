@@ -1,0 +1,32 @@
+.container {
+    height: 80%;
+    width: 100%;
+}
+.image {
+    /* color: #DF5E07; */
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    height: 600px;
+    width: 100%;
+    background-image: url("../../../assets/ldi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+   padding: 0.5%;
+
+   padding-left: 10%;
+   margin: 0px;
+   font-size: 30px;
+}
+button {
+    background-color: #DF5E07;
+    margin-left: 10%;
+    border: 2px #DF5E07 solid;
+    border-radius: 3px;
+}
+p:first-child {
+    padding-top: 18%;
+}
